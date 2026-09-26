@@ -1,0 +1,6 @@
+{
+  "name": "DT",
+  "description": "DT - Music for Everyone. Stream, discover, create playlists, download offline, and play local music.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
