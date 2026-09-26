@@ -1,4 +1,4 @@
-# 🎵 BeatStream (DT Music) — Premium iOS-Inspired Android Music Client
+# 🎵 DT Music — Premium iOS-Inspired Android Music Client
 
 [![Platform](https://img.shields.io/badge/Platform-Android-green.svg?style=for-the-badge&logo=android)](https://developer.android.com)
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9.0-blue.svg?style=for-the-badge&logo=kotlin)](https://kotlinlang.org)
@@ -6,13 +6,13 @@
 [![Database](https://img.shields.io/badge/Database-Room%20%2F%20SQLite-orange.svg?style=for-the-badge&logo=sqlite)](https://developer.android.com/training/data-storage/room)
 [![API](https://img.shields.io/badge/Lyrics_API-LRCLIB-blueviolet.svg?style=for-the-badge)]()
 
-**BeatStream (DT Music)** is an enterprise-grade, highly polished Android music streaming and local playback client. Built with **100% Jetpack Compose (Material 3)**, it seamlessly blends a premium **iOS / Apple Music aesthetic** with powerful local catalog scanning, offline track downloading, real-time karaoke lyrics sync, and hardware-accelerated audio enhancement.
+**DT Music** is an enterprise-grade, highly polished Android music streaming and local playback client. Built with **100% Jetpack Compose (Material 3)**, it seamlessly blends a premium **iOS / Apple Music aesthetic** with powerful local catalog scanning, offline track downloading, real-time karaoke lyrics sync, and hardware-accelerated audio enhancement.
 
 ---
 
-## 📖 What is BeatStream? (What the App Does)
+## 📖 What is DT? (What the App Does)
 
-BeatStream is designed to be a complete, unified music hub for Android. Instead of forcing you to choose between online streaming services and your own local physical files, **BeatStream integrates both into a single cohesive interface**. 
+DT is designed to be a complete, unified music hub for Android. Instead of forcing you to choose between online streaming services and your own local physical files, **DT integrates both into a single cohesive interface**. 
 
 The application serves three primary functions:
 1. **Dynamic High-Fidelity Streaming:** Instantly searches, indexes, and streams over 50 million tracks from the iTunes online music database at a master quality bitrate of **320 kbps**.
@@ -97,7 +97,7 @@ BeatStream implements a bespoke **iOS Design System** built completely from scra
 
 ## 💾 Database Schema
 
-BeatStream uses a relational **SQLite Database** managed via Jetpack Room:
+DT uses a relational **SQLite Database** managed via Jetpack Room:
 
 * **`tracks`**: Stores catalog metadata (ID, title, artist, album, audio URL, artwork URL, playback statistics, local download file paths).
 * **`playlists`**: Manages user-created custom playlist headers.
@@ -119,8 +119,9 @@ BeatStream uses a relational **SQLite Database** managed via Jetpack Room:
 ### Local Build and Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/dt-music-beatstream.git
-   cd dt-music-beatstream
+   git clone https://github.com/your-username/DT.git
+   cd DT
+   
    ```
 2. Compile and run standard unit tests to ensure configuration integrity:
    ```bash
